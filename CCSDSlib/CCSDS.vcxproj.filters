@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\CCSDSlib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\PacketField.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\PacketDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\PacketFixedLength.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\PacketEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\Frame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\FrameDecode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\CommandEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\source\CRCchecksum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\FrameEncode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\CCSDS.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\CCSDSlib.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\PacketField.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\PacketDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\PacketFixedLength.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\PacketEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\Frame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\FrameDecode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\CommandEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\CRCchecksum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\include\Endian.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\FrameEncode.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\mrsun\source\repos\CCSDSlib\CCSDSlib\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{896629AB-B8DE-3A1C-B111-3BA8A4724728}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{24AF41E0-7A30-3797-B2EE-45BAC0E5C8F5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

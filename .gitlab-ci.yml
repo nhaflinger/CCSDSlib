@@ -1,0 +1,20 @@
+image: gcc
+before_script:
+ - apt-get update --yes
+ - apt-get install --yes cmake
+ - apt-get install --yes libgtest-dev
+
+build:
+  script:
+    - export HOME_DIR=$PWD
+    - cmake ./
+    - make
+    - ./Demo/CCSDSdemo -x data/xtce.xml -f data/testpacket.ccsds
+    - cd /usr/src/gtest
+    - cmake ./
+    - make
+    - cp lib/*.a /usr/lib
+    - cd $HOME_DIR/gtest
+    - cmake ./
+    - make
+    - ./runTests
